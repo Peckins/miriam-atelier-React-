@@ -1,32 +1,33 @@
 .Card-Container {
-    background-color: rgba(255, 255, 255, 0.6);
-    margin: 5%;
-    border-radius: 7px;
-    display: inline-block;
-    padding: 3%;
-    transform: scale(0.9);
-    cursor: pointer;
-    opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 5%;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 3%;
+  transform: scale(0.9);
+  cursor: pointer;
+  opacity: 0.8;
+  width: auto;
+  text-align: center;
 }
 
 .Card-Container:hover {
-    transform: scale(1);
-    transition-duration: 0.5s;
+  transform: scale(1);
+  transition-duration: 0.5s;
 }
 
 .Card-Container:active {
-    background-color: #fff;
-    background-size: 100%;
-    transition: 0s;
+  background-color: #fff;
+  background-size: 100%;
+  transition: 0s;
 }
 
 .Card-Img {
-    width: 100%;
-    height: auto;
+  width: 150px;
 }
 
-@media screen and (orientation:portrait) {
-    .Card-Container {
-        display: block;
-    }
+@media screen and (orientation: portrait) {
+  .Card-Container {
+    display: block;
+  }
 }
