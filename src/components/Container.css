@@ -1,0 +1,17 @@
+.Menu-Container {
+  border-radius: 10px;
+  display: block;
+  padding: 3%;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: rgba(201, 181, 218, 0.7);
+}
+h3 {
+  font-family: euclid;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}

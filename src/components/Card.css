@@ -24,10 +24,16 @@
 
 .Card-Img {
   width: 150px;
+  height: 100px;
 }
 
 @media screen and (orientation: portrait) {
   .Card-Container {
     display: block;
+  }
+
+  .Card-Img {
+    width: auto;
+    height: 150px;
   }
 }
